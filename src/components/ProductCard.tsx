@@ -24,7 +24,7 @@ export const ProductCard = ({ name, price, description, imageUrl }: ProductCardP
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-lg font-semibold text-primary">{name}</h3>
           <Badge variant="secondary" className="font-medium">
-            ${price.toLocaleString()}
+            {price.toLocaleString()} جنيه
           </Badge>
         </div>
         <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed">
