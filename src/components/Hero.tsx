@@ -5,7 +5,7 @@ export const Hero = () => {
       <div className="container mx-auto text-center max-w-3xl relative z-10">
         <div className="animate-fade-in">
           <span className="inline-block px-4 py-1.5 mb-8 text-xs font-semibold tracking-widest text-primary/80 uppercase bg-white rounded-full shadow-sm border border-gray-100/50">
-            Premium Mobile zona
+            Premium Mobile
           </span>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-primary mb-8 leading-tight">
             Technology Meets <br />
